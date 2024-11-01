@@ -34,8 +34,7 @@ import BlogOverview from "../components/Blog-overview";
 
 const fetchListOfBlogs = async () => {
     try {
-        // `${process.env.NEXT_PUBLIC_API_URL}/api/get-blogs`
-        const res = await fetch("/api/get-blogs", {
+        const res = await fetch("http://localhost:3000/api/get-blogs", {
             method: "GET",
             cache: "no-store"
         });
