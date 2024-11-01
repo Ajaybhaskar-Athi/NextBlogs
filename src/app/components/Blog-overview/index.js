@@ -1,35 +1,3 @@
-// "use client";
-
-// import { useEffect, useState } from "react";
-// import AddNewBlog from "../add-new-blog";
-// import CardDesign from "./CardDesign";
-// import { useRouter } from "next/router";
-
-
-// const initialForm={
-//     title:"",
-//     description:"",
-// };
-
-
-// const BlogOverview=({blogList}) =>{
-//   const [openBlogDailog, setOpenBlogDailog] = useState(false);
-//   const [formData,setFormData]=useState(initialForm);
-//     console.log(blogList);
-
-//   return (
-//     <div className="min-h-screen   bg-gradient-to-r from-purple-500 to-blue-600">
-//       <AddNewBlog openBlogDailog={openBlogDailog} setOpenBlogDailog={setOpenBlogDailog} formData={formData} setFormData={setFormData} />
-
-//       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-5 px-4 md:px-8 lg:px-16">
-//      <CardDesign blogList={blogList}  setFormData={setFormData} setOpenBlogDailog={setOpenBlogDailog}/>
-
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default  BlogOverview
 
 
 "use client";
