@@ -39,11 +39,12 @@ This is a simple **Next.js Blog Application** where users can:
 - MongoDB Atlas account
 - Git installed
 
-### Installation
+
+## Installation
 
 1. Clone the repository:
    ```bash
-  git clone https://github.com/Ajaybhaskar-Athi/NextBlogs.git
+   git clone https://github.com/Ajaybhaskar-Athi/NextBlogs.git
 
 
 ## Getting Started
