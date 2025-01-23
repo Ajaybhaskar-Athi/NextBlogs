@@ -1,5 +1,51 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Next.js Blog Application
+
+This is a simple **Next.js Blog Application** where users can:
+- Add blogs with a title and description.
+- Edit or delete their blogs.
+- Validate inputs using `Joi`.
+- Use a clean, responsive design powered by **shadcn/ui**.
+- Store blog data in MongoDB and interact via REST APIs.
+
+---
+
+## 🖼️ Screenshots
+
+### Homepage
+![Homepage Screenshot](./images/home.png)
+
+### Add Blog Page
+![Add Blog Page](./images/blogs.png)
+
+### Edit Blog Page
+![Edit Blog Page](./images/edit.png)
+
+---
+
+## 🛠️ Features
+- **Frontend**: Next.js, shadcn/ui
+- **Backend**: REST APIs
+- **Validation**: `Joi` library
+- **Database**: MongoDB (Atlas)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js
+- MongoDB Atlas account
+- Git installed
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+
+
 ## Getting Started
 
 First, run the development server:
