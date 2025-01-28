@@ -33,8 +33,8 @@ import BlogOverview from "../components/Blog-overview";
 
 
 const fetchListOfBlogs = async () => {
-    try {
-        const res = await fetch("http://localhost:3000/api/get-blogs", {
+    try { //http://localhost:3000/api/get-blogs
+        const res = await fetch("https://next-blogs-black.vercel.app/api/get-blogs", {
             method: "GET",
             cache: "no-store"
         });
